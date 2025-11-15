@@ -3,3 +3,4 @@ uvicorn[standard]
 sqlmodel
 pydantic
 python-multipart
+sqlite3-binary
