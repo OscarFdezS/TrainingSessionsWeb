@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API = axios.create({ baseURL: 'http://localhost:8000' })
+const API = axios.create({ baseURL: process.env.REACT_APP_API_URL || 'http://localhost:8000' })
 export const fetchSessions = () => API.get('/sessions')
 export const createSession = (data) => API.post('/sessions', data)
 export const updateSession = (id, data) => API.put(`/sessions/${id}`, data)
