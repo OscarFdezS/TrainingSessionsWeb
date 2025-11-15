@@ -1,0 +1,68 @@
+# ============================
+# Node / React
+# ============================
+/frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/frontend/build/
+package-lock.json
+
+# ============================
+# Python / FastAPI
+# ============================
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# SQLite database (NO ignorar si quieres subirla a Git)
+/backend/*.db
+
+# Si NO quieres subir la base de datos, descomenta:
+/backend/*.db
+/backend/*.sqlite
+
+# ============================
+# Editor files
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# OS files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+
+# ============================
+# Environment files
+# ============================
+*.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.test.local
+
+# ============================
+# Scripts
+# ============================
+.log
+run_bat.sh
+run.sh
