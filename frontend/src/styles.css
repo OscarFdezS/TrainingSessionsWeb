@@ -14,7 +14,8 @@ body {
     border-radius:
         10px;
     background: #f9f9f9;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .form-grid {
@@ -72,6 +73,11 @@ body {
 .sessions-table {
     max-height: 300px;
     overflow-y: auto;
+    width: 100%;
+}
+.sessions-table-parent {
+    width: 100%;
+    overflow-x: auto;
 }
 
 .sessions-table table {
