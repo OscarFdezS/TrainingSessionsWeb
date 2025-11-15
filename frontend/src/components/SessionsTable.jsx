@@ -25,7 +25,7 @@ export default function SessionsTable({ sessions, onChanged }) {
                                 <td>{s.zone}</td>
                                 <td>{s.avg_hr ?? '-'}</td>
                                 <td>{s.distance_km ?? '-'}</td>
-                                <td><button onClick={() => onDelete(s.id)}>Eliminar</button></td>
+                                {/* <td><button onClick={() => onDelete(s.id)}>Eliminar</button></td> */}
                             </tr>
                         ))}
                     </tbody>
